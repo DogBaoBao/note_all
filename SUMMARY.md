@@ -16,6 +16,7 @@
 * [ant-design-pro](ant-design/ant-design-pro/README.md)
   * [ant-design-pro 5](ant-design/ant-design-pro/ant-design-pro-5/README.md)
     * [ant-design-pro官方文档](https://procomponents.ant.design/)
+    * [日常小技巧](ant-design/ant-design-pro/ant-design-pro-5/ri-chang-xiao-ji-qiao.md)
 
 ## envoy
 
