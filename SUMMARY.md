@@ -26,3 +26,9 @@
 * [Envoy中文参考文档](https://www.envoyproxy.cn/)
 * [envory官网文档](https://www.envoyproxy.io/docs/envoy/latest/)
 
+## MySQL
+
+* [Mysql联合唯一索引存在空值时唯一约束失效](mysql/unique-index-lose.md)
+
+## Redis
+
