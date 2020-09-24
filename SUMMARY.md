@@ -41,3 +41,7 @@
   * [持续集成服务 Travis CI 教程](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
   * [在项目中使用 travis](github-1/travis/zai-xiang-mu-zhong-shi-yong-travis.md)
 
+---
+
+* [Github Action 采坑](https://www.edwardthomson.com/blog/github_actions_11_secrets.html)
+
