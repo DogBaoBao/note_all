@@ -2,9 +2,11 @@
 description: 在本机 mac 安装单节点的 kubenetes 供学习。
 ---
 
-# Kubenetes 菜鸡之路 \| 安装
+# 一拳搞定 Kubenetes \| 安装
 
 > Kubernetes 系列文章，无逻辑，就是干。
+>
+> 请自行备好 docker， linux 等常规知识。
 
 ## 基于 minukube
 
@@ -97,11 +99,9 @@ E0928 17:18:13.216884   19644 dashboard.go:90] Error excluding IP from proxy: Ex
 
 ![](../../.gitbook/assets/image%20%286%29.png)
 
-根据这个页面，可以方便的和各个概念去对应。
+根据这个页面，可以方便的和各个概念去对应，能加快理解。
 
 {% embed url="https://kubernetes.io/zh/docs/setup/learning-environment/minikube/\#%E4%BB%AA%E8%A1%A8%E7%9B%98" %}
-
-
 
 ## 基于 docker desktop 运行
 
@@ -109,7 +109,7 @@ E0928 17:18:13.216884   19644 dashboard.go:90] Error excluding IP from proxy: Ex
 
 ![](../../.gitbook/assets/image%20%289%29.png)
 
-### 参考资料
+直接参考官方文档和简书一篇蛮新的文章：
 
 {% embed url="https://docs.docker.com/docker-for-mac/\#kubernetes" %}
 
