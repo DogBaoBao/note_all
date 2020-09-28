@@ -3,7 +3,7 @@
 * [note\_all](README.md)
 * [云原生](cloudnative/README.md)
   * [Kubenetes](cloudnative/kubenetes/README.md)
-    * [Mac 上玩转 kubenetes](cloudnative/kubenetes/mac-shang-wan-zhuan-kubenetes.md)
+    * [Mac 上玩转 kubenetes](cloudnative/kubenetes/mac-with-k8s.md)
 
 ## HTTP
 
