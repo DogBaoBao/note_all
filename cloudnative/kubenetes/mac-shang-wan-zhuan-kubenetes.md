@@ -2,7 +2,5 @@
 
 ## 基于 docker desktop 运行
 
-{% page-ref page="mac-shang-wan-zhuan-kubenetes.md" %}
-
-
+[https://www.jianshu.com/p/e5c056baa8ab](https://www.jianshu.com/p/e5c056baa8ab)
 
