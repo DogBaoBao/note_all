@@ -2,12 +2,17 @@
 
 * [笔记中心](README.md)
 * [Go语言](go/README.md)
+  * [常用库](go/use/README.md)
+    * [Casbin](go/use/casbin/README.md)
+      * [一拳搞定 Casbin \| 概念理解](go/use/casbin/conceptual.md)
   * [Web框架](go/web/README.md)
     * [Gin](go/web/gin/README.md)
-      * [一拳搞定 Gin \| 日志](go/web/gin/yi-quan-gao-ding-gin-ri-zhi.md)
+      * [一拳搞定 Gin \| 数据库操作](go/web/gin/db.md)
+      * [一拳搞定 Gin \| 项目结构](go/web/gin/structure.md)
+      * [一拳搞定 Gin \| 日志](go/web/gin/log.md)
 * [云原生](cloudnative/README.md)
   * [Kubenetes](cloudnative/kubenetes/README.md)
-    * [一拳搞定 Kubenetes \| 安装](cloudnative/kubenetes/mac-with-k8s.md)
+    * [一拳搞定 Kubenetes \| 安装](cloudnative/kubenetes/install.md)
 
 ## HTTP
 
