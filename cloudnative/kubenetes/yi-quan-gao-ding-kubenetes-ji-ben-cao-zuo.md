@@ -125,5 +125,9 @@ Request Body:
         -no body in request-
 ```
 
+## 简单总结
+
+pod 是容器运行的地方，对应我们的中间件服务以及业务微服务，正常情况下它是个局域网的配置，外部无法访问到它，需要通过 service 来做 loadbance 把请求转发到具体的 pod。
+
 
 
