@@ -1,5 +1,5 @@
 ---
-description: 在本机 mac 安装单节点的 kubenetes 供学习。
+description: 目标：在本机 mac 安装单节点的 kubenetes 供学习
 ---
 
 # 一拳搞定 Kubenetes \| 安装
@@ -115,5 +115,7 @@ E0928 17:18:13.216884   19644 dashboard.go:90] Error excluding IP from proxy: Ex
 
 {% embed url="https://www.jianshu.com/p/e5c056baa8" %}
 
+## 集群安装
 
+17 年是买的脚本跑的，目前没机器给我玩，只能等有环境再说了。
 
