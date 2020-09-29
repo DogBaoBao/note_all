@@ -1,6 +1,16 @@
-# 一拳搞定 Kubenetes \| 基本操作
+---
+description: 目标：跟着官方入门教程走一遍
+---
 
-## 创建 deployment
+# 一拳搞定 Kubenetes \| 入门教程
+
+> 有图有真相，方便和指定的概念对照
+
+{% embed url="https://kubernetes.io/zh/docs/setup/learning-environment/minikube/" caption="安装k8s" %}
+
+## 创建
+
+### 创建 deployment
 
 ```bash
 tiechengdeMacBook-Pro-2:docker-compose tc$ kb create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.10
@@ -19,7 +29,9 @@ NAME             READY   UP-TO-DATE   AVAILABLE   AGE
 hello-minikube   1/1     1            1           17m
 ```
 
-## 创建 service
+### 创建 service
+
+> 一般集群外部访问通过它再到具体的 pod
 
 ```bash
 tiechengdeMacBook-Pro-2:docker-compose tc$ kubectl expose deployment hello-minikube --type=NodePort --port=8778
@@ -43,7 +55,7 @@ kubernetes       ClusterIP   10.96.0.1     <none>        443/TCP          22h
 
 {% embed url="https://kubernetes.io/zh/docs/concepts/services-networking/service/\#publishing-services-service-types" %}
 
-## 查看 Pod
+### 查看 Pod
 
 ```bash
 tiechengdeMacBook-Pro-2:docker-compose tc$ kubectl get pods
@@ -59,9 +71,24 @@ hello-minikube-797f975945-hqnfk   1/1     Running   0          15m
 
 ## 查看暴露的地址
 
+通过下面命令获取访问信息
+
 ```bash
 tiechengdeMacBook-Pro-2:docker-compose tc$ minikube service hello-minikube --url
 http://192.168.64.3:31259
+```
+
+192.168.64.3 这个地址是在  \`~/.minikube/machines/minikube/config.json\` 文件夹中定义的：
+
+```bash
+{
+    "ConfigVersion": 3,
+    "Driver": {
+        "IPAddress": "192.168.64.3",
+        "MachineName": "minikube",
+        "SSHUser": "docker",
+        ...
+}        
 ```
 
 去访问发现是不通的。
