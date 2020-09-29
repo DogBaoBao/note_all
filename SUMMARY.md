@@ -17,8 +17,9 @@
       * [一拳搞定 Gin \| 日志](go/web/gin/log.md)
 * [云原生](cloudnative/README.md)
   * [Kubenetes](cloudnative/kubenetes/README.md)
-    * [一拳搞定 Kubenetes \| 入门教程](cloudnative/kubenetes/yi-quan-gao-ding-kubenetes-ji-ben-cao-zuo.md)
     * [一拳搞定 Kubenetes \| 安装](cloudnative/kubenetes/install.md)
+    * [一拳搞定 Kubenetes \| 入门教程](cloudnative/kubenetes/door.md)
+    * [一拳搞定 Kubenetes \| 概念](cloudnative/kubenetes/yi-quan-gao-ding-kubenetes-gai-nian.md)
 
 ## HTTP
 
