@@ -3,6 +3,7 @@
 * [笔记中心](README.md)
 * [Go语言](go/README.md)
   * [常用库](go/use/README.md)
+    * [Oauth2](go/use/oauth2.md)
     * [Casbin](go/use/casbin/README.md)
       * [一拳搞定 Casbin \| 概念理解](go/use/casbin/conceptual.md)
   * [Web框架](go/web/README.md)
