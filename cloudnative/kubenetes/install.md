@@ -6,6 +6,8 @@ description: 目标：在本机 mac 安装单节点的 kubenetes 供学习
 
 > Kubernetes 系列文章，无逻辑，就是干。
 >
+> 不讲 minukube 的命令，官方写的非常详细。
+>
 > 请自行备好 docker， linux 等常规知识。
 
 ## 基于 minukube
@@ -30,6 +32,8 @@ tiechengdeMacBook-Pro-2:.kube tc$ minikube start
 ```
 
 ### kubeconfig
+
+> 一份连接的配置
 
 如上面的输出有一个解释下：
 
@@ -93,9 +97,15 @@ Modify: Mon Sep 28 17:14:19 2020
 Change: Mon Sep 28 17:14:19 2020
 ```
 
+这份配置涉及到本地访问多个 k8s 集群，具体内容可以看下面链接：
+
 {% embed url="https://kubernetes.io/zh/docs/concepts/configuration/organize-cluster-access-kubeconfig/" %}
 
 ### dashboard
+
+> 小白也能玩的很开心的控制台
+
+minikube 通过如下命令安装：
 
 ```bash
 tiechengdeMacBook-Pro-2:.kube tc$ minikube dashboard
@@ -108,7 +118,7 @@ E0928 17:18:13.216884   19644 dashboard.go:90] Error excluding IP from proxy: Ex
 
 强烈建议安装 Dashboard （新手必备），可以直观的看到控制台：
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![&#x63A7;&#x5236;&#x53F0;](../../.gitbook/assets/image%20%286%29.png)
 
 根据这个页面，可以方便的和各个概念去对应，能加快理解。
 
@@ -128,5 +138,5 @@ E0928 17:18:13.216884   19644 dashboard.go:90] Error excluding IP from proxy: Ex
 
 ## 集群安装
 
-17 年是买的脚本跑的，目前没机器给我玩，只能等有环境再说了。
+17 年是买的脚本跑的，资料也不够新了。目前在公司也没机器给我玩，只能等有环境再说了。
 
