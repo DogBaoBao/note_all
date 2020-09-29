@@ -80,7 +80,18 @@ users:
     client-key: /Users/tc/.minikube/client.key
 ```
 
-这份文件是我之前配置的，里面的服务地址均已经不正确，我先往下走看看是否会出现什么问题。
+这份文件在创建的时候会进行更新：
+
+```bash
+tiechengdeMacBook-Pro-2:.kube tc$ stat -x config.22 
+  File: "config.22"
+  Size: 2183         FileType: Regular File
+  Mode: (0644/-rw-r--r--)         Uid: (  501/      tc)  Gid: (   20/   staff)
+Device: 1,4   Inode: 33584314    Links: 1
+Access: Mon Sep 28 17:14:35 2020
+Modify: Mon Sep 28 17:14:19 2020
+Change: Mon Sep 28 17:14:19 2020
+```
 
 {% embed url="https://kubernetes.io/zh/docs/concepts/configuration/organize-cluster-access-kubeconfig/" %}
 
