@@ -16,6 +16,8 @@
 
 一旦有了多个应用实例，就可以没有宕机地滚动更新。
 
+{% embed url="https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/scale/scale-intro/" %}
+
 ### 实操
 
 给 hello-minikube 扩到 2  个 pod：
@@ -99,4 +101,22 @@ Request Body:
 ```
 
 可以看到 Hostname 已经出现了 2 个 pod 的名称，证明这 2 个 pod 都开始提供服务。
+
+## 滚动更新
+
+用户希望应用程序始终可用，而开发人员则需要每天多次部署它们的新版本。在 Kubernetes 中，这些是通过滚动更新（Rolling Updates）完成的。 **滚动更新** 允许通过使用新的实例逐步更新 Pod 实例，零停机进行 Deployment 更新。新的 Pod 将在具有可用资源的节点上进行调度。
+
+在前面的模块中，我们将应用程序扩展为运行多个实例。这是在不影响应用程序可用性的情况下执行更新的要求。默认情况下，更新期间不可用的 pod 的最大值和可以创建的新 pod 数都是 1。这两个选项都可以配置为（pod）数字或百分比。 在 Kubernetes 中，更新是经过版本控制的，任何 Deployment 更新都可以恢复到以前的（稳定）版本。
+
+> 我们可以追求随时发布，然后通过灰度去验证，success 则滚动发布所有。fail 则回滚灰度的到之前版本，这些都是可以做到自动化。
+
+滚动更新允许以下操作：
+
+* 将应用程序从一个环境提升到另一个环境（通过容器镜像更新）
+* 回滚到以前的版本
+* 持续集成和持续交付应用程序，无需停机
+
+{% embed url="https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/update/update-intro/" %}
+
+
 
