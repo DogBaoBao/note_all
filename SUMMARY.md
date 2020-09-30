@@ -21,6 +21,7 @@
     * [一拳搞定 Kubenetes \| 入门教程](cloudnative/kubenetes/door.md)
     * [一拳搞定 Kubenetes \| 基础知识1](cloudnative/kubenetes/basic1.md)
     * [一拳搞定 Kubenetes \| 基础知识2](cloudnative/kubenetes/basic2.md)
+    * [一拳搞定 Kubenetes \| service](cloudnative/kubenetes/untitled.md)
 
 ## HTTP
 
