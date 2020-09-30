@@ -19,7 +19,8 @@
   * [Kubenetes](cloudnative/kubenetes/README.md)
     * [一拳搞定 Kubenetes \| 安装](cloudnative/kubenetes/install.md)
     * [一拳搞定 Kubenetes \| 入门教程](cloudnative/kubenetes/door.md)
-    * [一拳搞定 Kubenetes \| 概念](cloudnative/kubenetes/yi-quan-gao-ding-kubenetes-gai-nian.md)
+    * [一拳搞定 Kubenetes \| 基础知识1](cloudnative/kubenetes/basic1.md)
+    * [一拳搞定 Kubenetes \| 基础知识2](cloudnative/kubenetes/basic2.md)
 
 ## HTTP
 
